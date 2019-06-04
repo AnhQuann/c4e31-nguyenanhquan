@@ -1,0 +1,43 @@
+#calculator {
+  width: 50%;
+  height: 500px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+}
+
+#calculator_body {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  width: 70%;
+}
+
+#screen {
+  height: 5rem;
+  background-color: white;
+  padding-left: 1rem;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+#keyboard {
+  display: flex;
+  flex-flow: column;
+}
+
+#operators {
+  display: flex;
+  margin-top: 5px;
+}
+
+button {
+  width: 20%;
+}
+
+#numbers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
